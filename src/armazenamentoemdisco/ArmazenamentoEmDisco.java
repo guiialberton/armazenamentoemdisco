@@ -67,6 +67,9 @@ public class ArmazenamentoEmDisco {
                 case 4:
                     removeRegister();
                     break;
+                case 0:
+                    return;
+                    break;
                 default:
                     System.out.println("Erro, Entrada Invalida\n");
                     break;
